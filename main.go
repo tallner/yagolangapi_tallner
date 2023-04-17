@@ -46,6 +46,7 @@ func addManyEmployees(c *gin.Context) {
 
 }
 
+// testar lite
 var config Config
 
 func main() {
