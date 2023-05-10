@@ -19,7 +19,7 @@ type PageView struct {
 var theRandom *rand.Rand
 
 func start(c *gin.Context) {
-	c.HTML(http.StatusOK, "home.html", &PageView{Title: "test", Rubrik: "Hej Golang"})
+	c.HTML(http.StatusOK, "home.html", &PageView{Title: "test", Rubrik: "Hello Golang"})
 }
 
 // HTML
